@@ -1,7 +1,6 @@
 package core
 
 import (
-	"fmt"
 	"time"
 
 	"github.com/redis/go-redis/v9"
@@ -58,4 +57,3 @@ func NewManagerWithOptions(opts ManagerOptions) (*Manager, error) {
 	}
 	return newManager(cfg)
 }
-
